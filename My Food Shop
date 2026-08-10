@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Structure of html elements</title>
+    <style>
+      h2 {
+        text-align: center;
+      }
+
+      ul {
+        border: 2px solid brown;
+      }
+
+      .name {
+        text-align: center;
+      }
+
+      .chicken {
+        background-color: beige;
+        color: brown;
+        justify-content: center;
+        padding: 50px;
+        margin: 5px;
+      }
+
+      #drinks {
+        background-color: beige;
+        color: brown;
+        justify-content: center;
+        padding: 50px;
+        margin: 5px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="name"><i>Frysto</i></h1>
+      <p style="text-align: center">
+        <i>This website is only for non veg lovers </i>
+      </p>
+      <br />
+      <a href="https://frysto.in"
+        >Visit Google
+        <br />
+        <img
+          src="https://b.zmtcdn.com/data/dish_photos/aed/41b5c6e6174cf3080f74de42ac292aed.jpeg"
+        />
+      </a>
+      <div>
+        <h2>Snack:</h2>
+        <ul>
+          <li class="chicken">chicken burger</li>
+          <li class="chicken">chicken loaded fries</li>
+          <li class="chicken">chicken roll</li>
+          <li class="chicken">chicken hot dog</li>
+        </ul>
+        <br /><br />
+
+        <h2>Beverages:</h2>
+        <ul>
+          <li id="drinks">Pepsi</li>
+          <li id="drinks">Coca Cola</li>
+          <li id="drinks">Goli soda</li>
+        </ul>
+      </div>
+    </header>
+    <footer style="color: brown">
+      Contact: 9876442242
+      <br /><br />
+      Location: Ashok Nagar
+    </footer>
+  </body>
+</html>

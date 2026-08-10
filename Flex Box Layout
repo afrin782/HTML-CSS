@@ -1,1 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Flexbox Layout</title>
+    <style>
+      /* 1. Flex container */
+      .container {
+        display: flex; /* Make it flexbox */
+        flex-direction: row; /* Row or column */
+        justify-content: center; /* Horizontal alignment */
+        align-items: center; /* Vertical alignment */
+        gap: 20px; /* Space between boxes */
+        height: 100vh; /* Full screen height */
+        background-color: black;
+      }
+
+      /* 2. Child boxes */
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: teal;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 3. Flex container with 3 boxes -->
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </body>
+</html>

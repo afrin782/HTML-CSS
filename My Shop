@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shop</title>
+    <style>
+        h3 {
+            color: blue;
+        }
+        ul {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color: blue;">Feel Labaan...</h1>
+         <h2>Welcome to Feel Labaan...!</h2>
+        <img src="https://feellabanmanipal.com/assets/menu-page-2-C6LT6EEf.jpg" alt="Feel Labaan Logo" width="500px">
+    </header>
+    <main>
+        <h2 style="color: blue;">Menu</h2>
+        <hr>
+        <h3>...Labaan...</h3>
+        <ul>
+            <li>Kabsa</li>
+            <li>Creme De La Creme</li>
+            <li>Lazy Cat</li>
+            <li>Cheese Bomb</li>
+            <li>Al Mazia</li>
+            <li>Le Feel De Paris</li>
+        </ul>
+        <h3>...Shakes...</h3>
+        <ul>
+            <li>Nutella</li>
+            <li>Pistachio</li>
+            <li>Lotus</li>
+            <li>Hot Chocolate</li>
+        </ul>
+        <p style="color: blue;"><b>Feel Labaan focus only on quality, taste, and customer satisfaction.</b>>
+        </p>
+    </main>
+    <footer style="color: blueviolet;">
+        <p><b>Email:</b> feellabaan@gmail.com</p>
+        <p><b>Location:</b> Anna Nagar</p>
+    </footer>
+</body>
+
+</html>

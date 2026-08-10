@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>
+<p>
+<strong>Name:</strong>
+<input type="text">
+</p>
+
+<p>
+<strong>Email:</strong>
+<input type="email">
+</p>
+
+<p>
+<strong>Feedback:</strong>
+</p>
+
+<textarea rows="5" cols="40"></textarea>
+
+<p>
+<mark>Please provide your honest feedback</mark>
+</p>
+
+<button onclick="alert('Feedback Submitted Successfully')">Submit</button>
+</form>
+
+
+</body>
+</html>

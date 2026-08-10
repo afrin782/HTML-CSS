@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KFC</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color: black;">KFC Restaurant</h1>
+        <h3>It's Finger Lickin' Good</h3>
+        <img src="https://www.hatchwise.com/wp-content/uploads/2024/05/image-24.png" width="200px">
+
+    </header>
+    <main>
+        <hr>
+        <h2>Menu</h2>
+
+        <ul>
+            <li>Chicken Bucket</li>
+            <li>Zinger Burger</li>
+            <li>Hot Wings</li>
+            <li>French Fries</li>
+            <li>Chicken Popcorn</li>
+            <li>Pepsi</li>
+        </ul>
+
+        <hr>
+
+    </main>
+    <footer style="color: blueviolet;">
+        <p><b>Email:</b> kfc578789@gmail.com</p>
+        <p><b>Location:</b> Anna Nagar</p>
+    </footer>
+</body>
+
+</html>

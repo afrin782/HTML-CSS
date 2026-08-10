@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            background-color: antiquewhite;
+        }
+        article {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header style=" font-size:40px">The Times Of India</header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Sports</li>
+            <li>City News</li>
+            <li>World News</li>
+        </ul>
+    </nav>
+    <main>
+        <strong>India won the match</strong>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque harum est assumenda, excepturi non dicta
+            ipsam quis saepe? Nulla qui laborum minima possimus beatae. Sequi eius possimus ut itaque?
+            <section>
+                <img>
+            </section>
+        </article>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque harum est assumenda, excepturi non dicta
+            ipsam quis saepe? Nulla qui laborum minima possimus beatae. Sequi eius possimus ut itaque?
+        </article>
+        <aside></aside>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

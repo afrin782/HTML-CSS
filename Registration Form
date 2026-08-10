@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+       
+        form {
+            border: 10px solid black;
+            width: 300px;
+            height: 500px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+
+    <!-- Name -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" placeholder="Enter password" required><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label >
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label><br><br>
+
+    <!-- Hobbies -->
+    <label>Hobbies:</label>
+    <input type="checkbox" id="reading">
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="music">
+    <label for="music">Music</label>
+    <input type="checkbox" id="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" min="18" max="45" required><br><br>
+
+    <!-- Submit -->
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>

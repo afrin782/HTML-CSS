@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Customer name</label>
+        <input type="text" placeholder="Enter customer name">
+        <br><br>
+        <label>Customer Id</label>
+        <input type="number" placeholder="Enter customer id">
+        <br><br>
+         <label>Password</label>
+        <input type="password" placeholder="Enter Password">
+        <br><br>
+        <label>Comment</label>
+        <textarea maxlength="5"></textarea>
+        <br><br>
+        <label>Snack</label>
+        <select>
+            <option> ice cream</option>
+            <option>Milk Shake</option>
+            <option>Sawarma</option>
+            <option>BBQ</option>
+        </select>
+        <br><br>
+        <label>Gender</label>
+        <input name="Gender" type="radio"><label>Male</label>
+        <input name="Gender" type="radio"><label>Female</label>
+        <br><br>
+        <label>Email</label>
+        <input type="email">
+        <br><br>
+        <label>India</label><input type="text">
+        <label>USA</label><input type="text">
+        <br><br>
+        <input type="date">
+         <input type="color">
+         <br><br>
+         <p>
+            que: what is emphasis?
+               
+                <p>  <input type="checkbox">1. self explanatory</p>
+                <p><input type="checkbox"> 2. Stresses a word</p>
+                <p><input type="checkbox"> 3. Both 1 & 2</p>
+                <p><input type="checkbox"> 4. None</p>
+            
+         </p>
+         <button onclick="alert('Logged In')">Login</button>
+        <button onclick='alert("Logged Out")'>LogOut</button>
+        <br><br>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #devices {
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+        }
+
+        ul {
+           display: flex;
+            gap: 30px;
+            list-style-type: none;
+        }
+
+        main {
+            background-color: lightcyan;
+            display: flex;
+        
+        }
+
+        article {
+            background-color: lavender;
+        }
+
+        section {
+            background-color: bisque;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Hi Everyone...!</h1>
+        <p>This is my webspage</p>
+    </header>
+    <nav>
+    <ul id="devices">
+        <li>Home</a></li>
+        <li>About</a></li>
+        <li>Service</li>
+        <li>Contact</li>
+    </ul>
+    </nav>
+    <main>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quo iste aut quod, 
+            cum cupiditate sunt maiores placeat non delectus. Ipsam enim consectetur iusto nisi molestiae 
+            aut odio perferendis vitae.
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos quod,
+                     itaque maxime veritatis eveniet porro velit cum quo! Laudantium repellendus sint eligendi.
+                     Dolores, eligendi enim. Numquam illum blanditiis ab?
+            </section>
+        </article>
+        <aside>
+            This is the archieved content
+        </aside>
+    </main>
+    <footer>  <!--alt + 0169-->
+        
+        copyright @ 2026
+    </footer>
+</body>
+</html>

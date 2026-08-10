@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Basics</title>
+
+    <style>
+         /* Common styling */
+        div {
+            margin: 30px;
+            padding: 25px;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        #box {
+            border: 2px solid black;
+            width: 50vw;
+            height: 50vh;
+            
+        }
+
+        /* 1. Colors */
+        .color {
+            color: blue;             
+            border: 2px solid red;  
+        }
+
+        /* 2. Backgrounds */
+        .background {
+            background-color: lightgreen;
+        }
+
+        /*3. Background-Image */
+        .background-image {
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240914/pngtree-pink-and-purple-flowers-in-a-soft-bokeh-background-royalty-free-image_16205874.jpg');
+            background-size:cover;
+        }
+
+        /* 4. Fonts */
+        .font {
+            font-family: Arial, sans-serif;
+            font-size: xx-large  ;
+        }
+
+        /* 5. Text Styles */
+        .text-style {
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+
+    <div class="color">
+        This is Color Example (Text + Border)
+    </div>
+
+    <div class="background">
+        This is Background Example (Color)
+    </div>
+
+    <div class="background-image">
+        This is Background Example (Image)
+    </div>
+
+    <div class="font">
+        This is Font Example (Family + Size)
+    </div>
+
+    <div class="text-style">
+        This is Text Style Example (Bold, Italic, Underline)
+    </div>
+
+    </div>
+
+</body>
+</html>

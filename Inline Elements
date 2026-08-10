@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inline Elements</title>
+</head>
+
+<body>
+    <h1>Welcome To <span style="color: blue;">My Website </span></h1>
+    <span>This is a span text</span>
+    <a href="#">This is a link</a>
+</body>
+
+</html>

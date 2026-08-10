@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* element selector {
+            property: value;
+        }*/
+
+        /* id selector {
+            property: value;
+        }*/
+        #college {
+            background-color: cadetblue;
+            border: 2px solid black;
+            width: "400px";
+            height: "400px";
+        }
+
+        div {
+            background-color: cadetblue;
+            border: 2px solid black;
+            width: "400px";
+            height: "400px";
+        }
+        #firstA {
+            background-color: blue;
+            color: white;
+            height: 50px;
+        }
+
+         .firststd {
+            background-color: blue;
+            color: white;
+            height: 50px;
+        }
+
+        .firstB {
+            background-color: blueviolet;
+            color: white;
+            height: 100px
+        }
+
+        #section1 {
+            background-color: fuchsia;
+        }
+
+        #section2 {
+            background-color: lightcoral;
+        }
+
+        #section3 {
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="school">
+          school  
+        <p id="firstA" class="firststd">this is 1st lesson for first std A1</p>
+        <p class="firstB" class="firststd">this is 1st lesson for first std A2</p>
+        <p>this is 1st lesson for second std</p>
+        <p id="section1">this is 1st lesson for second std A2</p>
+        <p id="section2">this is 3rd lesson  for third std A1</p>
+
+    </div><br>
+
+    <div id="college">
+        college
+    </div>
+   
+</body>
+</html>

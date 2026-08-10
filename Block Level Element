@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block Level Element</title>
+</head>
+<body>
+    <div>
+        <p>Welcome To India</p>
+    </div>
+        <p>Hello Alice...!</p>
+        <p>This is my webpage</p>
+</body>
+</html>

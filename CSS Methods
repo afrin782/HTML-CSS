@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Methods</title>
+
+    <!-- Internal CSS -->
+    <style>
+      #a1 {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: xxx-large;
+      }
+
+      .internal-section {
+        background-color: lightblue;
+        color: black;
+        padding: 200px;
+        margin: 10px;
+        border: 2px solid blue;
+      }
+
+      p{
+        font-size: xx-large;
+      }
+
+    h2{
+        text-align: center;
+        font-size: xxx-large;
+    }
+    </style>
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="taskstyles.css" />
+  </head>
+  <body>
+    <h1>Three Types of CSS</h1>
+    <div id="a1">
+      <!-- Inline CSS -->
+      <div
+        style="
+          background-color: lightgreen;
+          color: black;
+          padding: 200px;
+          margin: 10px;
+          border: 2px solid green;
+        "
+      >
+        <h2>Inline CSS</h2>
+        <p>This section is styled using inline CSS.</p>
+      </div>
+
+      <!-- Internal CSS -->
+      <div class="internal-section">
+        <h2>Internal CSS</h2>
+        <p>This section is styled using internal CSS.</p>
+      </div>
+
+      <!-- External CSS -->
+      <div class="external-section">
+        <h2>External CSS</h2>
+        <p>This section is styled using external CSS.</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+/* ================= styles.css (External CSS File) ================= */
+
+.external-section {
+    background-color: lightcoral;
+    color: white;
+    padding: 200px;
+    margin: 10px;
+    border: 2px solid darkred;
+}
